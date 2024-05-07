@@ -1,5 +1,12 @@
 #! /bin/bash
 
+if [ ! -d /opt/Taskmatters ]; then
+	cd /opt
+	sudo git clone -b main https://github.com/Rafitorcha/Taskmatters.git
+	echo 'alias taskM="/opt/Taskmatters/tasksmatters.sh"' >>~/.bashrc
+	source ~/.bashrc
+fi
+
 echo $(clear >&2)
 
 textToCenter=('See notes                                           s'
@@ -263,4 +270,3 @@ function goBack() {
 }
 
 session
-
