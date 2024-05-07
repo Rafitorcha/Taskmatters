@@ -6,8 +6,8 @@ Taskmatters is a project that lists and marks tasks
 
 Requirements ⚠️
 -----------
-- FIGlet
-- Git
+- <b>FIGlet</b> (<b>important</b> for banners)
+- <b>Git</b> (<b>important</b> for pull the updates)
 
 <br>
 
