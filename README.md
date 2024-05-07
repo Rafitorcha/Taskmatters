@@ -4,7 +4,7 @@ Taskmatters is a project that lists and marks tasks
 
 <br>
 
-Requirements ⚠️ Important ⚠️
+Requirements ⚠️
 -----------
 - FIGlet
 - Git
