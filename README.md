@@ -4,6 +4,13 @@ Taskmatters is a project that lists and marks tasks
 
 <br>
 
+Requirements ⚠️ Important ⚠️
+-----------
+- FIGlet
+- Git
+
+<br>
+
 Install
 -----------
 
@@ -13,6 +20,8 @@ After running the script, refresh your shell by typing the following command in 
     source ~/.bashrc
 
 Finally, you can execute Taskmatters by typing "taskM" in the terminal. Feel free to customize the alias.
+
+<br>
 
 Uninstall
 -----------
