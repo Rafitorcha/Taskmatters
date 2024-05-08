@@ -34,10 +34,16 @@ Finally, you can execute Taskmatters by typing "taskM" in the terminal. Feel fre
 Uninstall
 -----------
 
-Open a text editor, such nano, vim... and delete the line that contains an alias named "taskM" in the bashrc file.
-eventually, execute uninstall.sh 
+Open a text editor, such nano, vim... 
 
     nano ~/.bashrc
+
+Delete the line that contains an alias named "taskM" in the bashrc file.
+
+    alias taskM="/opt/Taskmatters/tasksmatters.sh"
+
+Eventually, execute uninstall.sh 
+    
     ./uninstall.sh
   
   
