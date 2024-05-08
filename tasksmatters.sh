@@ -6,6 +6,7 @@ if [ ! -d /opt/Taskmatters ]; then
 	echo 'alias taskM="/opt/Taskmatters/tasksmatters.sh"' >>~/.bashrc
 	source ~/.bashrc
 else
+	cd /opt/Taskmatters/
 sudo git pull origin main
 fi
 
