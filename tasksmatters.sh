@@ -5,7 +5,11 @@ if [ ! -d /opt/Taskmatters ]; then
 	sudo git clone -b main https://github.com/Rafitorcha/Taskmatters.git
 	echo 'alias taskM="/opt/Taskmatters/tasksmatters.sh"' >>~/.bashrc
 	source ~/.bashrc
+else
+sudo git pull origin main
 fi
+
+clock="00:00:00"
 
 echo $(clear >&2)
 
@@ -21,7 +25,9 @@ textToCenter=('See notes                                           s'
 	'Mark as done                                        m'
 	'Delete one task                                     d'
 	'Delete all tasks                                    a'
-	'Edit note?                                          e'
+	'Edit task?                                          e'
+	'Count time for a task                               c'
+	'Type the '
 )
 
 quit='Quit                                                q'
