@@ -4,11 +4,18 @@ Taskmatters is a project that lists and marks tasks
 
 <br>
 
+Features
+-----------
+- Add new tasks to the list
+- Mark tasks as completed
+- Erase tasks
+
+<br>
+
 Requirements ⚠️
 -----------
-- <a href="http://www.figlet.org/" target="_blank"><b>FIGlet</b> </a> (<b>important</b> for banners)
+- <a href="http://www.figlet.org/" target="_blank"><b>FIGlet</b></a> (<b>important</b> for banners)
 - <a href="https://git-scm.com/"><b>Git</b></a> (<b>important</b> for pull the updates)
-
 
 <br>
 
